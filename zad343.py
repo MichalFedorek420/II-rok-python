@@ -1,0 +1,5 @@
+amount_of_pln = int(input("Enter the amount in PLN: "))
+amount_of_five = int(amount_of_pln/5)
+amount_of_two = int(amount_of_pln%5/2)
+amount_of_one = int(amount_of_pln-(amount_of_two*2+amount_of_five*5))
+print(f"5 zł - {amount_of_five}\n2 zł - {amount_of_two}\n1 zł - {amount_of_one}\n")
