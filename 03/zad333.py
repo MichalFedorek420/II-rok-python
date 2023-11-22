@@ -6,3 +6,4 @@ else:
         y = x % 2
         print(y)
         x = x // 2 
+CHUJNIA STRASZNA 
