@@ -1,5 +1,5 @@
-
 def star(n):
+
     result = ''
     for i in n:
         result += f"{i}:{int(i) * '*'}\n"

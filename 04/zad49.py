@@ -15,7 +15,7 @@ def najczestsza_cyfra(liczba):
     # Znalezienie cyfry, która występuje najczęściej
     najczestsza = max(licznik, key=licznik.get)
 
-    return najczestsza, licznik
+    return najczestsza
 print(najczestsza_cyfra("2343654"))
 
 

@@ -29,6 +29,4 @@ def f(number):
 print(f(2303355))
 
 
-# źle zrobione
-
     

@@ -5,3 +5,4 @@ def bubblesort(array):
     return array
 
 print(bubblesort([4,3,26,45,11,2,69,22]))
+# chujowe nie dziala jebac to

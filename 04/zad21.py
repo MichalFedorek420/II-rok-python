@@ -5,7 +5,7 @@ def generate_number():
 
 def main():
     computer_digit = generate_number()
-    user_guess = int(input("Jak myślisz jaką liczbę wybrał komputer?"))
+    user_guess = int(input("Jak myślisz jaką liczbę wybrał komputer? "))
     if user_guess == computer_digit:
         print("Wygrałeś!")
     else:
