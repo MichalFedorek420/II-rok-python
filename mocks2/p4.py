@@ -8,12 +8,12 @@ def f(lista):
             licznik[cyfra] += 1
         else:
             licznik[cyfra] = 1
-    return licznik
+    
 
-    # # Dodajemy cyfry, które występują dokładnie jeden raz do listy wynikowej
-    # for cyfra, ilosc in licznik.items():
-    #     if ilosc == 1:
-    #         wystepujace_raz.append(cyfra)
+    # Dodajemy cyfry, które występują dokładnie jeden raz do listy wynikowej
+    for cyfra, ilosc in licznik.items():
+        if ilosc == 1:
+            wystepujace_raz.append(cyfra)
 
     return len(wystepujace_raz)
 
